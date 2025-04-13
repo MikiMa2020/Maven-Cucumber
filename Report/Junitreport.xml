@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="39.954859">
+    <testcase classname="To login Inmakes infotech website" name="To check the valid/invalid username and password" time="17.434468">
+        <system-out><![CDATA[Given To launch the browser and maximize the window.........................passed
+When User can give the inmakes url to the browser...........................passed
+And User can give Valid or invalid username "ghouthiya1997@gmail.com" to the browser.passed
+And User can give Valid or invalid password "Gv8870361996" to the browser...passed
+And User can click login button.............................................passed
+Then can close browser......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To login Inmakes infotech website" name="To check the valid/invalid username and password 2" time="10.842427">
+        <system-out><![CDATA[Given To launch the browser and maximize the window.........................passed
+When User can give the inmakes url to the browser...........................passed
+And User can give Valid or invalid username "thiyajesh2020@gmail.com" to the browser.passed
+And User can give Valid or invalid password "INMAKES@123" to the browser....passed
+And User can click login button.............................................passed
+Then can close browser......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To login Inmakes infotech website" name="To check the valid/invalid username and password 3" time="11.677964">
+        <system-out><![CDATA[Given To launch the browser and maximize the window.........................passed
+When User can give the inmakes url to the browser...........................passed
+And User can give Valid or invalid username "miki2020@gmail.com" to the browser.passed
+And User can give Valid or invalid password "Gv9087349822" to the browser...passed
+And User can click login button.............................................passed
+Then can close browser......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

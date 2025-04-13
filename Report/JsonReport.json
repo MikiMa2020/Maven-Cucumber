@@ -1,0 +1,355 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2436879300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the browser and maximize the window",
+            "match": {
+              "location": "InmakesLoginBrowser.to_launch_the_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "To check the valid/invalid username and password",
+        "description": "",
+        "id": "to-login-inmakes-infotech-website;to-check-the-valid/invalid-username-and-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14417969300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User can give the inmakes url to the browser",
+            "match": {
+              "location": "ValidOrInvalidIds.user_can_give_the_inmakes_url_to_the_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 197014100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User can give Valid or invalid username \"ghouthiya1997@gmail.com\" to the browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ghouthiya1997@gmail.com\"",
+                  "offset": 40
+                }
+              ],
+              "location": "ValidOrInvalidIds.user_can_give_Valid_or_invalid_username_to_the_browser(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 100380200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User can give Valid or invalid password \"Gv8870361996\" to the browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Gv8870361996\"",
+                  "offset": 40
+                }
+              ],
+              "location": "ValidOrInvalidIds.user_can_give_Valid_or_invalid_password_to_the_browser(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84920800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User can click login button",
+            "match": {
+              "location": "ValidOrInvalidIds.user_can_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 194056500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "can close browser",
+            "match": {
+              "location": "ValidOrInvalidIds.can_close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature1"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1103761800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the browser and maximize the window",
+            "match": {
+              "location": "InmakesLoginBrowser.to_launch_the_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "To check the valid/invalid username and password",
+        "description": "",
+        "id": "to-login-inmakes-infotech-website;to-check-the-valid/invalid-username-and-password;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9179354400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User can give the inmakes url to the browser",
+            "match": {
+              "location": "ValidOrInvalidIds.user_can_give_the_inmakes_url_to_the_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 164074600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User can give Valid or invalid username \"thiyajesh2020@gmail.com\" to the browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"thiyajesh2020@gmail.com\"",
+                  "offset": 40
+                }
+              ],
+              "location": "ValidOrInvalidIds.user_can_give_Valid_or_invalid_username_to_the_browser(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104853500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User can give Valid or invalid password \"INMAKES@123\" to the browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"INMAKES@123\"",
+                  "offset": 40
+                }
+              ],
+              "location": "ValidOrInvalidIds.user_can_give_Valid_or_invalid_password_to_the_browser(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92359600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User can click login button",
+            "match": {
+              "location": "ValidOrInvalidIds.user_can_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 197701100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "can close browser",
+            "match": {
+              "location": "ValidOrInvalidIds.can_close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature1"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1326431300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the browser and maximize the window",
+            "match": {
+              "location": "InmakesLoginBrowser.to_launch_the_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "To check the valid/invalid username and password",
+        "description": "",
+        "id": "to-login-inmakes-infotech-website;to-check-the-valid/invalid-username-and-password;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9777478900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User can give the inmakes url to the browser",
+            "match": {
+              "location": "ValidOrInvalidIds.user_can_give_the_inmakes_url_to_the_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 156529500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User can give Valid or invalid username \"miki2020@gmail.com\" to the browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"miki2020@gmail.com\"",
+                  "offset": 40
+                }
+              ],
+              "location": "ValidOrInvalidIds.user_can_give_Valid_or_invalid_username_to_the_browser(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96917100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User can give Valid or invalid password \"Gv9087349822\" to the browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Gv9087349822\"",
+                  "offset": 40
+                }
+              ],
+              "location": "ValidOrInvalidIds.user_can_give_Valid_or_invalid_password_to_the_browser(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83855700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User can click login button",
+            "match": {
+              "location": "ValidOrInvalidIds.user_can_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 236297400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "can close browser",
+            "match": {
+              "location": "ValidOrInvalidIds.can_close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@feature1"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To login Inmakes infotech website",
+    "description": "",
+    "id": "to-login-inmakes-infotech-website",
+    "keyword": "Feature",
+    "uri": "src/test/resources/InMakeLogin.feature",
+    "tags": [
+      {
+        "name": "@feature1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
